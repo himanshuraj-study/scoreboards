@@ -1,0 +1,55 @@
+body {
+    text-align: center;
+    margin: 0px;
+    color: wheat;
+    
+}
+
+@font-face {
+    src: url("digital-7.ttf");
+    font-family: clock;
+}
+
+h1 {
+    color: white;
+    text-shadow: 0px 0px 1px wheat;
+}
+
+h2 {
+    background-color: rgb(213, 3, 3);
+    color:wheat;
+    font-size: 50px;
+    padding-top: 30px ;
+    padding-bottom: 30px ;
+    margin: 0px 0px 30px 0px;
+    border:none;
+    border-radius:10px ;
+    font-family: clock;
+}
+h3 {
+    border: 1px solid white;
+    padding: 3px;
+    margin: 0px 0px 30px 0px;
+    color: white;
+    border:1px solid;
+    border-radius:5px ;
+}
+
+#con1 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#con2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+#container {
+    display: flex;
+    justify-content: space-around;
+    background: rgb(0, 0, 0);
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
